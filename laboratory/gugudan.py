@@ -8,10 +8,10 @@ start_num = 1
 max_num = 9
 # 1단부터 9단까지 반복문
 while start_num <= max_num:
-	# 구구단 연산 결과 출력
-	print(str(dan) + '*' + str(start_num) + '=' + str(dan * start_num))
-	# 다음 loop 진행을 위해서 start_num 값을 증가시킴
-	start_num += 1
+    # 구구단 연산 결과 출력
+    print(str(dan) + '*' + str(start_num) + '=' + str(dan * start_num))
+    # 다음 loop 진행을 위해서 start_num 값을 증가시킴
+    start_num += 1
 
 # 마무리 문구 출력
 print('*' * 24)
