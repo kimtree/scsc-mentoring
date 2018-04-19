@@ -45,8 +45,6 @@ def main():
     # 랜덤 숫자 생성
     answer = generate_random_number()
 
-    print(answer)
-
     # 시작 문구 표시
     print('S T A R T')
     print('==========' * 3)
