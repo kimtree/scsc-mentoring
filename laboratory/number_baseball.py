@@ -2,7 +2,13 @@ import random
 
 
 def generate_random_number():
-    return str(random.randint(100, 999))
+    numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+    random.shuffle(numbers)
+
+    number_str = ''.join(numbers[:3])
+    # number_str = numbers[0] + numbers[1] + numbers[2]
+
+    return number_str
 
 
 def get_game_result(user_number_str, answer_number_str):
@@ -38,6 +44,8 @@ def main():
 
     # 랜덤 숫자 생성
     answer = generate_random_number()
+
+    print(answer)
 
     # 시작 문구 표시
     print('S T A R T')
